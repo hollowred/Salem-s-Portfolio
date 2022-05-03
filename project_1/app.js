@@ -26,6 +26,6 @@ $(() => {
    $openBtn.on("click", openModal)
    $closeBtn.on('click', closeModal)
 
-   setTimeout(openModal, 2000)
+   
 
 })

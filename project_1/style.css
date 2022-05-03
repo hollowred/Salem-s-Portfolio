@@ -20,6 +20,13 @@ body {
 
 }
 
+#blah {
+  height: 500px;
+  text-align: center;
+  padding: 250px 250px 75x 1000px;
+  justify-content: space-between;
+}
+
 
 .box {
   color:white;
@@ -33,20 +40,7 @@ body {
   font-size: 20px;
 }
 
-.another {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1000px;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s opacity 0,5s;
-}
+
 
 .active {
   visibility: visible;
@@ -61,9 +55,7 @@ body {
 		height: 100%;
 		width: 100%;
 		z-index: 1;
-
-		overflow: auto;
-	
+    overflow: auto;
 		display: none;
 }
 #modal-textbox {
@@ -80,6 +72,10 @@ body {
 		text-align: right;
 	}
 
+  #navi {
+    height: 100px;
+  }
+
 
 .modal-buttons {
 		padding: 14px 18px;
@@ -93,7 +89,10 @@ body {
 	}
 /* this didn't work */
 .social-icon {
-  background-color: black;
-  margin-left: 40%;
-  margin-top: 10%;
+
+  /* margin-left: 40%;
+  margin-top: 10%; */
+  display: flex;
+  flex-direction: row;
+
 }
