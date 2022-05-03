@@ -2,6 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        background-image: url('https://i.imgur.com/cBe6b5w.jpg');
+      }
+    </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <meta charset="utf-8">
@@ -15,15 +20,28 @@
       <a class="box" href="projects.html">Projects</a>
       <a class="box" href="resume.html">Resume</a>
     </div>
-    <h2>Skills</h2>
-    <ul>
-      <li>Animal Handling</li>
-      <li>Music Coordination</li>
-      <li>Music Education</li>
-      <li>Storyboard Illustration</li>
-      <li>Screen Printing</li>
-    </ul>
+    <div class="another">
 
+
+      <h2>Resume</h2>
+      <p>Click here to check out my resume!</p>
+      <button class="modal-buttons" id="openModal">Resume!</button>
+    </div>
+    <div id="modal">
+      <div id="modal-textbox">
+      <h2>Skills</h2>
+      <ul>
+        <li>Animal Handling</li>
+        <li>Music Coordination</li>
+        <li>Music Education</li>
+        <li>Storyboard Illustration</li>
+        <li>Screen Printing</li>
+      </ul>
+      <div id="modal-footer">
+        <button class="modal-buttons" id="close">Close</button>
+        </div>
+      </div>
+    </div>
 
 
   </body>
