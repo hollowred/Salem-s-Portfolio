@@ -2,7 +2,7 @@
 // hover function isn't working.
 let modalBtn = document.querySelector('.another')
 
-$(document).ready(function(){
+$(document).ready(function() {
     $('.box').hover(function(){
 
         $(this).css("background-color", "black")
@@ -26,6 +26,6 @@ $(() => {
    $openBtn.on("click", openModal)
    $closeBtn.on('click', closeModal)
 
-   
+
 
 })
